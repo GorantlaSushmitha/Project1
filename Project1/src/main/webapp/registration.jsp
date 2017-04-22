@@ -18,7 +18,7 @@
     		<img class="home-image" src="pic/6.jpg" alt="first slide" width="1330" height="650">
             		<div class="carousel-caption">
             		<br/><br/>
-						<div class="jumbotron"><center><br/>
+						<div><center><br/>
 						<div class="page-header">
 							<h2><center>Registration</center><h2>
 						</div>
@@ -68,7 +68,6 @@
 							</center></div><br><br>
 							<div class="rows"><center>
 								<button type="submit" class="btn btn-default"><a href="login.jsp">Submit</a></button>
-								<a href="login.jsp" class="btn btn-default" role="button">Loin Here</a>
 							</center></div>
 						</center>
 					</div>

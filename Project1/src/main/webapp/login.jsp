@@ -35,7 +35,7 @@
 							</div>
 						</div><br><br>
 						<div>
-							<button type="submit" class="btn btn-lg" role="button"><a href="index.jsp">Submit</a></button>
+							<a href="index.jsp"><button type="submit" class="btn btn-lg" role="button">Submit</button></a>
 						</div>
 					</center></div>
                 </div>
