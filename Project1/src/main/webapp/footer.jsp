@@ -11,32 +11,20 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<title>BOOKS And GADGETS</title>
+		<title>Footer</title>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="main.jsp">Books & Gadgets</a>
+					<a class="navbar-brand">
+						<li style="color: peraiah;">2017, Books & Gadgets</li>
+					</a>
 				</div>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="login.jsp">Sign-in<span class="sr-only">go to login page</span></a></li>
-					<li><a href="registration.jsp">Sign-up<span class="sr-only">go to registration page</span></a></li>
+				<ul class="nav navbar-brand navbar-right">
+					<li style="color: sushmitha;">bgcollections@outlet.co.in</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="container-fluid">
-    		<img class="first-slide home-image" src="pic/7.jpg" alt="first slide" width="1330" height="580">
-    		<div class="carousel-caption">
-            	<div class="page-header">
-           			<h3><p><mark>Books & Gadgets</mark></p></h3>
-       			</div>
-           		<p>This is the world of Books & Gadgets. Where we can find different type of books and gadgets.</p>
-           		<img src="pic/8.jpg">
-           	</div>
-        </div>
-        <div>
-        	<%@ include file="footer.jsp" %>
-        </div> 		
+		</nav>			
 	</body>
 </html>

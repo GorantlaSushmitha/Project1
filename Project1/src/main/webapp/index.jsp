@@ -11,38 +11,7 @@
 		<title>Project1</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="index.jsp">Books & Gadgets</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li><a href="#">Home<span class="sr-only">go to home page</span></a></li>
-					<li class="dropdown">
-						<a href="#" data-toggle="dropdown" class="dropdown-toggle">Books</a>
-                		<ul class="dropdown-menu">
-                    		<li><a href="#">Story</a></li>
-      						<li><a href="#">Subjective</a></li>
-      						<li><a href="#">Novels</a></li>
-      						<li><a href="#">Comic Books</a></li>
-                		</ul>
-    				</li>
-					<li class="dropbown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gadgets</a>
-   						<ul class="dropdown-menu">
-      						<li><a href="#">Laptops</a></li>
-							<li><a href="#">Mobiles</a></li>
-							<li><a href="#">Desktops</a></li>
-							<li><a href="#">IPads</a></li>
-							<li><a href="#">Other</a></li>
-   						</ul>
-					</li>
-					<li>
-						<li><a href="#">About Us<span class="sr-only">go to About us page</span></a></li>
-					</li>						
-				</ul>
-			</div>
-		</nav>
+		<%@ include file="navigationbar.jsp" %>
 		<div class="container-fluid">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
             	<!-- Indicators -->
@@ -100,6 +69,9 @@
             	</a>
         	</div>
         	<!-- /.carousel -->
+		</div>
+		<div>
+			<%@ include file="footer.jsp" %>
 		</div>
 	</body>
 </html>
