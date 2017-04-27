@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-    		<img class="first-slide home-image" src="pic/5.jpg" alt="first slide" width="1350" height="650">
+    		<img class="first-slide home-image" src="pic/51.jpg" width="1340" height="650">
     			<div class="container">
             	<div class="carousel-caption">
             		<div class="page-header">

@@ -4,14 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-	<servlet>
-		<servlet-name>registrationDemo</servlet-name>
-		<servlet-class>com.demo.registrationDemo</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>registrationDemo</servlet-name>
-		<url-pattern>/registration</url-pattern>
-	</servlet-mapping>
+	
 	
 	
 	<welcome-file-list>

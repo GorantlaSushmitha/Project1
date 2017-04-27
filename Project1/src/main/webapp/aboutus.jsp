@@ -28,7 +28,11 @@
 		<div>
 			<h3><b>Gadgets:</b></h3>
 			<p>A gadget is a small tool such as a machine that has a particular function, and is related to today's fast-advancing modern age technology to create such gadgets. Gadgets have a wide variety of functions and styles. All of these functions show the progressing advanced modern age. Gadgets are sometimes referred to as gizmos. Gizmos in particular are a bit different from gadgets. Gadgets in particular are small tools powered by electronic principles (a circuit board).</p>
-			<img class="img-thumbnail" width="304" height="236" src="pic/13.jpg">
+			<p>In our Online shop we have all type of phones, laptops, taglets and more.</p>
+			<img class="img-thumbnail" width="304" height="304" src="pic/13.jpg">
+			<img class="img-thumbnail" width="304" height="304" src="pic/14.jpg">
+			<img class="img-thumbnail" width="304" height="304" src="pic/15.jpg">
+			<img class="img-thumbnail" width="304" height="304" src="pic/16.jpg">
 		</div>
 		<div>
 			<%@ include file="footer.jsp" %>
