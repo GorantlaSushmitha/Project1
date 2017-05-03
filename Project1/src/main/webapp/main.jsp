@@ -15,28 +15,27 @@
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse">
+		
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="main.jsp">Books & Gadgets</a>
+					<img src="pic/0.png" width="150" height="50"><a class="navbar-brand" href="main.jsp">Books & Gadgets</a>
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="login.jsp">Sign-in<span class="sr-only">go to login page</span></a></li>
 					<li><a href="registration.jsp">Sign-up<span class="sr-only">go to registration page</span></a></li>
 				</ul>
 			</div>
+			</div>
 		</nav>
 		<div class="container-fluid">
-    		<img class="first-slide home-image" src="pic/7.jpg" alt="first slide" width="1330" height="580">
-    		<div class="carousel-caption">
-            	<div class="page-header">
-           			<h3><p><mark>Books & Gadgets</mark></p></h3>
-       			</div>
-           		<p>This is the world of Books & Gadgets. Where we can find different type of books and gadgets.</p>
-           		<img src="pic/8.jpg">
+    		<img class="first-slide home-image" src="pic/7.jpg" width="1330" height="550">
+    		<div class="carousel-caption">   
+    			<h3><p><mark>Books & Gadgets</mark></p></h3>    			
+           		<p>This is the world of Books & Gadgets. Where we can find different type of books and gadgets.</p>		
            	</div>
-        </div>
-        <div>
-        	<%@ include file="footer.jsp" %>
-        </div> 		
+        	<div>
+        		<br><%@ include file="footer.jsp" %>
+       		</div>
+       	</div> 		
 	</body>
 </html>

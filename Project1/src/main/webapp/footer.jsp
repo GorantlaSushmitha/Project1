@@ -18,7 +18,7 @@
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand">
-						<li style="color: peraiah;">2017, Books & Gadgets</li>
+						<li style="color: peraiah;">@ 2017, Books & Gadgets</li>
 					</a>
 				</div>
 				<ul class="nav navbar-brand navbar-right">
